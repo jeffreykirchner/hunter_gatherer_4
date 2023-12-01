@@ -1,0 +1,3 @@
+Period,Phase,GameTime,SecondsSinceStart,Player,Group,XLoc,YLoc,EventName,ChatText,BlueNear,CaptureType,CaptureResult,DestinationX,DestinationY,PotX,PotY,TransferType,TransferTarget,TransferAmount,OtherInfo
+1,hunting,9,1.715,Blue,1,5000,870,New Destination,,,,,4962,636,
+1,hunting,8,2.423,Blue,1,4962,821,New Destination,,,,,5178,475,
