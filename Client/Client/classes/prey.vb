@@ -118,13 +118,13 @@ Public Class prey
 
     Public Sub newTarget()
         Try
-            'If myType = "small" Then
-            '    targetX = rand(1680 * (smallPanelX + 1) - 100, 1680 * smallPanelX + 100)
-            '    targetY = rand(1050 * smallPanelY - 100, 100 + 1050 * (smallPanelY - 1))
-            'Else
-            targetX = rand(1680 * worldWidth * (2 / 6) - 100, 100)
-            targetY = rand(1050 * worldHeight - 100, 100)
-            'End If
+            If myType = "small" Then
+                targetX = rand(1680 * (smallPanelX + 1) - 100, 1680 * smallPanelX + 100)
+                targetY = rand(1050 * smallPanelY - 100, 100 + 1050 * (smallPanelY - 1))
+            Else
+                targetX = rand(1680 * worldWidth * (2 / 6) - 100, 100)
+                targetY = rand(1050 * worldHeight - 100, 100)
+            End If
         Catch ex As Exception
             appEventLog_Write("error :", ex)
         End Try

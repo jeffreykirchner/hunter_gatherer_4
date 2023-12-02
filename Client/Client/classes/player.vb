@@ -206,7 +206,12 @@ Public Class player
                         tempPrey.targetY = tempPrey.myY
 
                         If Math.Abs(myY - tempPrey.myY) < preyMovementRate And Math.Abs(myX - tempPrey.myX) < preyMovementRate Then
+
                             Dim tempFlee As Boolean = Not tempPrey.pullinResult
+
+                            If tempPrey.myType = "small" Then
+                                tempFlee = False
+                            End If
 
                             'If myX < 1680 * worldWidth * (2 / 6) Then 'large prey flee
                             '    If rand(100, 1) > largePreyProbability Then

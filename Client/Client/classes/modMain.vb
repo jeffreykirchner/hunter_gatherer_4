@@ -392,7 +392,7 @@ Module modMain
                 'server has signaled client to start experiment
 
                 smallPanelX = rand(5, 4)
-                smallPanelY = rand(6, 1)
+                smallPanelY = 1 'rand(6, 1)
                 largePanelY = rand(3, 1)
 
                 'setup chat boxes
