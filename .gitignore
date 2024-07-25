@@ -31,10 +31,10 @@ bld/
 [Oo]bj/
 [Oo]ut/
 [Ll]og/
-[Ll]ogs/
+/[Ll]ogs/
 
 #datafiles
-[Dd]atafiles/
+/[Dd]atafiles/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -100,7 +100,7 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
-*.exe
+/*.exe
 
 # Chutzpah Test files
 _Chutzpah*
