@@ -1,8 +1,8 @@
-Deployment
+# Deployment
 The Deployment_Example folder provides an example of what is required to deploy the application to a Windows computer. Copy this folder to the desktop of each client computer.
 XNA 3.1 and 4.0, located in the XNA folder, must be installed on all client computers.
 
-Operation
+# Operation
 Start the Server.exe on one computer in your lab and the Client.exe on four other computers. 
 Windows Defender may ask if you are sure you want to run this application. Give Windows permission to run it.
 The Clients will ask for an IP address. Enter the IP address of the computer running the server. The server will display its IP address in the top left corner of the screen.
